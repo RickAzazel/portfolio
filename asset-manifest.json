@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/RickAzazel/portfolio.git/static/css/main.ef3215d2.css",
+    "main.js": "/RickAzazel/portfolio.git/static/js/main.6cd47a93.js",
+    "static/media/MikhalchukM.pdf": "/RickAzazel/portfolio.git/static/media/MikhalchukM.4c6a19ff5cea348d63d0.pdf",
+    "static/media/logo.png": "/RickAzazel/portfolio.git/static/media/logo.5f7e13e99bed02ece42b.png",
+    "static/media/project.webp": "/RickAzazel/portfolio.git/static/media/project.e763ce99a4acd9811d30.webp",
+    "index.html": "/RickAzazel/portfolio.git/index.html",
+    "main.ef3215d2.css.map": "/RickAzazel/portfolio.git/static/css/main.ef3215d2.css.map",
+    "main.6cd47a93.js.map": "/RickAzazel/portfolio.git/static/js/main.6cd47a93.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ef3215d2.css",
+    "static/js/main.6cd47a93.js"
+  ]
+}
