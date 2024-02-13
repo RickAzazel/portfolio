@@ -1,0 +1,13 @@
+.about {
+	@include flex-column;
+}
+
+.about__container {
+	max-width: 600px;
+	text-align: center;
+}
+
+.about__description {
+	margin-bottom: 4rem;
+	color: $gold;
+}

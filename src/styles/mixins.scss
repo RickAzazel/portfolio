@@ -1,0 +1,15 @@
+@mixin grid() {
+	display: grid;
+	gap: 2.4rem;
+}
+
+@mixin flex-column() {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+@mixin button--flex() {
+	display: inline-flex;
+	align-items: center;
+}

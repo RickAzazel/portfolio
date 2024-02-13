@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&display=swap');
+
+*,
+::after,
+::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+
+body,
+button,
+input,
+textarea {
+	font-family: $body-font;
+	font-size: 1.6rem;
+	font-weight: 400;
+}
+
+body {
+	color: white;
+}
+
+h1,
+h2,
+h3 {
+	font-weight: 600;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+button {
+	cursor: pointer;
+	border: none;
+	outline: none;
+}
+
+.wrapper {
+	min-height: 100vh;
+	background-color: $dark-blue;
+	overflow-x: hidden;
+}
+
+.container {
+	max-width: 968px;
+	margin-inline: auto;
+}
+
+.section {
+	padding: 10rem 0 3rem;
+
+	&__title {
+		font-size: 4rem;
+		text-align: center;
+		color: $gold;
+	}
+
+	&__subtitle {
+		display: block;
+		margin-bottom: 5rem;
+		color: $light;
+		text-align: center;
+		font-weight: 200;
+	}
+}
+
+.button {
+	display: inline-block;
+	padding: 2rem 3.2rem;
+	border-radius: 1.6rem;
+	font-weight: 500;
+	color: $gold;
+	border: 1px solid $gold;
+	transition: all .5s;
+
+	&__icon {
+		color: $gold;
+		margin-left: 1rem;
+		font-size: 3rem;
+		transition: all .5s;
+	}
+}
+
+/* ====== MEDIA ====== */
+@media (hover: hover) {
+	.button:hover,
+	.button:hover>.button__icon {
+		border-color: $white;
+		color: $white;
+	}
+}
+
+/* Large devices */
+@media screen and (max-width: 992px) {
+	.container {
+		margin-inline: 2.4rem;
+	}
+
+	.button {
+		padding: 1.6rem 3rem;
+	}
+
+	.button__icon {
+		font-size: 2.2rem;
+	}
+}
+
+/* Medium devices */
+@media screen and (max-width: 768px) {
+	body {
+		font-size: 1.4rem;
+	}
+
+	.section {
+		padding: 0 3rem 15rem 3rem;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	body {
+		font-size: 1.3rem;
+	}
+
+	.section {
+		padding: 0 1rem 10rem 1rem;
+	}
+}
+
+/* Small devices */
+@media screen and (max-width: 350px) {
+	body {
+		font-size: 1.2rem;
+	}
+
+	.container {
+		margin-inline: 1.6rem;
+	}
+
+	.button {
+		padding: 1rem 2rem;
+	}
+}

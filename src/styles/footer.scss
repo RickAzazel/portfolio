@@ -1,0 +1,39 @@
+.footer {
+	border-top: 1px solid $light;
+
+	&__container {
+		padding: 3.2rem 0 10rem;
+	}
+
+	&__title,
+	&__link {
+		color: $gold;
+	}
+
+	&__title {
+		text-align: center;
+		margin-bottom: 3.2rem;
+	}
+
+	&__list {
+		display: flex;
+		justify-content: center;
+		column-gap: 2.4rem;
+		margin-bottom: 3.2rem;
+	}
+
+	&__copy {
+		display: block;
+		margin-top: 7.2rem;
+		color: $light;
+		text-align: center;
+		font-size: 1.2rem;
+	}
+}
+
+/* MEDIA */
+@media (hover: hover) {
+	.footer__link:hover {
+		color: $white;
+	}
+}
